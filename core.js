@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 
-const app = express();
+const app = express(); //corefile
 const port = 3000;
 
 app.use(bodyParser.json({ limit: '10mb' }));
